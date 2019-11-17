@@ -5,12 +5,12 @@ import { useGesture } from "react-use-gesture";
 import "./styles.css";
 
 const cards = [
-  "https://upload.wikimedia.org/wikipedia/en/f/f5/RWS_Tarot_08_Strength.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/5/53/RWS_Tarot_16_Tower.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/9/9b/RWS_Tarot_07_Chariot.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/d/db/RWS_Tarot_06_Lovers.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/690px-RWS_Tarot_02_High_Priestess.jpg",
-  "https://upload.wikimedia.org/wikipedia/en/d/de/RWS_Tarot_01_Magician.jpg"
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t1.0-9/76176434_3256160181077265_2047202037153660928_o.jpg?_nc_cat=100&_nc_oc=AQnUq9avz2BmEMuvVVWqZceoCygMC1XhhyLzzp1DDi2AVnbHpoqHfWwQbgOKvRdulNr9yMyQJ_jZhA60HGaDxIip&_nc_ht=scontent.fbnu2-1.fna&oh=80476823495534289d4f9e5c1e9e2d16&oe=5E5136E6",
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t1.0-9/10923477_1037472326279406_6400281135408724448_n.jpg?_nc_cat=107&_nc_oc=AQlRD8eytK1fL865hzAhEGn01cGTAD5kTp2rf0ArYdIQnba3VjA2dw9cPUsKbx340IJlrgM31ThujedLevhGFdaE&_nc_ht=scontent.fbnu2-1.fna&oh=eab8ed79347691c7050a793cdb1875d3&oe=5E4F67BF",
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t31.0-8/10623911_994640837229222_5240576250639095744_o.jpg?_nc_cat=111&_nc_oc=AQmR-o3GOovnQUilvEAsJOa-IfrVwNBuSHD9_-NSq2RWMwmXa2xZPdCDJ2kVe3PyqAyBq8TClYWu3Rj3ze-d_d1M&_nc_ht=scontent.fbnu2-1.fna&oh=fa40cc6092c33c49f1e7419207ca8168&oe=5E58C95A",
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t31.0-8/1404583_994641227229183_9041112721068392118_o.jpg?_nc_cat=102&_nc_oc=AQkzRKMgur3dqL8ZZD_kaxV7SORa7E-qUsrFBdphXKE_N4VDoQQFkmXoVUFUtCnaYWgek_FS9tckFoXSZ0r2N6o7&_nc_ht=scontent.fbnu2-1.fna&oh=540c64ac13b84d7382ac0930c83e090e&oe=5E435D6A",
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t1.0-9/74413573_3270286056331344_2238332892189032448_n.jpg?_nc_cat=101&_nc_oc=AQk2TjNE7grdLCfofPrltXkWeSFefWLnBNhxp7FF5Mp7TJeAd3csJA-RlaDJ7hNDOBWV_sJTpedUGZIdnXFP3gPt&_nc_ht=scontent.fbnu2-1.fna&oh=cb01a71472170ea1b752f2b0f828fee2&oe=5E8B785C",
+  "https://scontent.fbnu2-1.fna.fbcdn.net/v/t1.0-9/20476316_1906546269372003_4842979997053533177_n.jpg?_nc_cat=100&_nc_oc=AQmWNfWy4sGDgVaNdpH-BaDTMB42J55u50db8hU6ohHLn6Jn3_BiVEfgPg4R18DaVPa9_VJLKpeMaPLhe_R1l19g&_nc_ht=scontent.fbnu2-1.fna&oh=3df18faa06d1a3d78018a0379c6e06a4&oe=5E45F3AC"
 ];
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
