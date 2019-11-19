@@ -9,8 +9,8 @@ const cards = [
   "http://alternativeagencia.com.br/everton/2.jpg",
   "http://alternativeagencia.com.br/everton/3.jpg",
   "http://alternativeagencia.com.br/everton/4.jpg",
-  "http://alternativeagencia.com.br/everton/5.jpg",
-  "http://alternativeagencia.com.br/everton/6.jpg"
+  "http://alternativeagencia.com.br/everton/6.jpg",
+  "http://alternativeagencia.com.br/everton/5.jpg"
 ];
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
